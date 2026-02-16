@@ -1,3 +1,16 @@
 __pycache__
 .env
 .learn
+# =====================
+# DATASETS
+# =====================
+
+data/raw/*
+!data/raw/.gitkeep
+
+# Ignorar zip
+data/raw/*.zip
+
+# Ignorar modelos entrenados
+models/*.h5
+models/*.keras
